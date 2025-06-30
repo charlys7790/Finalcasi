@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Raspa y Gana de Ely y Charly!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>¡Raspa y Gana de Ely y Charly!</h1>
+
+    <span class="decoration star" style="top: 10%; left: 10%;">⭐</span>
+    <span class="decoration clover" style="bottom: 15%; right: 5%;">🍀</span>
+    <span class="decoration star" style="top: 20%; right: 15%; animation-delay: 1.5s; transform: scale(0.9) rotate(5deg);">✨</span>
+    <span class="decoration clover" style="bottom: 5%; left: 10%; animation-delay: 2.5s; transform: scale(1.1) rotate(-8deg);">🍀</span>
+
+    <div id="scratch-container">
+        <canvas id="scratch-canvas"></canvas>
+        <div id="prize-content">
+            <p id="prize-text">¡Raspa para descubrir tu premio!</p>
+        </div>
+    </div>
+
+    <button id="reset-button">JUGAR DE NUEVO</button>
+
+    <audio id="scratch-audio" src="scratch_sound.mp3" preload="auto"></audio>
+    <audio id="win-audio" src="win_sound.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
